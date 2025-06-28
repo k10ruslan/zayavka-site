@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма записи</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Оставьте заявку</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Ваше имя" required />
+      <input type="tel" name="phone" placeholder="Телефон" required />
+      <input type="email" name="email" placeholder="Email" />
+      <textarea name="message" placeholder="Комментарий"></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+    <div id="status"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
