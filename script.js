@@ -1,7 +1,7 @@
 
 const form = document.getElementById('contact-form');
 const status = document.getElementById('status');
-const scriptURL = "https://script.google.com/macros/s/AKfycbz-jkSGECswZM1_5zA1JaQ4QqSpAjQ5DQdXz9ZX106cKqGIva0lD6ugH0Atx17bjdsK/exec";
+const scriptURL = "https://script.google.com/macros/library/d/1gje9MMEVX6IPJTo_HZ9zZRnNWloWnDyM3sbkpc7AtjNKbI_oJYLXx9wp/1";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
